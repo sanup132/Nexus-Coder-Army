@@ -1,0 +1,14 @@
+ <!-- Adding Font Awesome for icons (this link help to add icon) -->Paste inside <Head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+for example
+<!-- Name Input -->
+
+        <label for="name">Name</label>
+        <i class="fas fa-user"></i>
+        <input type="text" id="name" placeholder="Enter your name" />
+      
+      <br><br>

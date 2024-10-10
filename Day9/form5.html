@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Report</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form>
+      <h2>Health Details Form</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <i class="fas fa-user"></i>
+        <input type="text" id="name" placeholder="Enter your name:" />
+        <br /><br />
+        <label for="date">Date of Birth:</label>
+        <i class="fas fa-calendar-alt"></i>
+        <input type="date" id="date" />
+        <br /><br />
+        <label>Gender:</label>
+        <i class="fas fa-user"></i>
+        <input type="radio" id="radio1" name="radio-group />
+        <label for="radio1" class="inline">Male</label>
+        <input type="radio" id="radio2" name="radio-group />
+        <label for="radio2" class="inline">Female</label>
+        <input type="radio" id="radio3" name="radio-group />
+        <label for="radio3" class="inline">Other</label>
+        <br /><br />
+        <label for="phone">Phone:</label>
+        <i class="fas fa-phone"></i>
+        <input type="number" id="phone" placeholder="Enter your contact No:" />
+        <br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Medical History</legend>
+        <label for="Blood group"> Blood-Group:</label>
+        <select name="Blood-Group" id="Blood">
+          <option value="" disabled selected>select your blood group</option>
+          <option value="">A</option>
+          <option value="">AB</option>
+          <option value="">o+</option>
+          <option value="">O</option>
+        </select>
+        <br /><br />
+        <label>Do you wear glass or lense:</label>
+        <input type="radio" id="radio1" name="radio-group />
+        <label for="radio1">yes</label>
+        <input type="radio" id="radio2" name="radio-group />
+        <label for="radio2">No</label>
+
+        <br /><br />
+        <label for="message">Pre-existing Conditions:</label><br />
+
+        <textarea
+          id="message"
+          placeholder="list any Pre-existing Conditions"
+        ></textarea>
+        <br />
+        <br /><br />
+        <label for="allergies">Allergies:</label><br />
+        <input type="checkbox" id="allergies" name="allergies" />
+        <label for="allergies">Pollen</label><br />
+        <input type="checkbox" id="allergies" name="allergies" />
+        <label for="allergies">Peanuts</label><br />
+        <input type="checkbox" id="allergies" name="allergies" />
+        <label for="allergies">Latex</label><br />
+        <input type="checkbox" id="allergies" name="allergies" />
+        <label for="allergies">Other:</label><br />
+        <input type="checkbox" id="allergies" name="allergies" />
+        <label for="allergies">None</label>
+        <br /><br />
+        <label for="message">Current Medication:</label><br />
+
+        <textarea
+          id="message"
+          placeholder="List any current Medications"
+        ></textarea>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Emergency contact</legend>
+        <label for="name">Emergency Contact name</label>
+        <i class="fas fa-user"></i>
+        <input type="text" id="name" placeholder="Enter your contact name:" />
+        <br /><br />
+        <label for="phone">Emergency Contact phone</label>
+        <i class="fas fa-phone"></i>
+        <input type="number" id="phone" placeholder="Enter your contact No:" />
+        <br /><br />
+        <label for="name"> Relation to Emergency Contact:</label>
+        <i class="fas fa-user"></i>
+        <input type="text" id="name" placeholder="Enter your relation" />
+        <br /><br />
+      </fieldset>
+
+      <button>Register Now</button>
+      <br /><br />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Registration Details</title>
+    <!-- <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 50px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+        position: relative;
+      }
+
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px 40px; /* Adds space for the icon */
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-group i {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        font-size: 18px;
+        color: #555;
+      }
+
+      .form-group input[type="checkbox"],
+      .form-group input[type="radio"] {
+        width: auto;
+        padding-left: 0;
+      }
+
+      .form-group label.inline {
+        display: inline-block;
+        margin-left: 5px;
+        font-weight: normal;
+      }
+    </style> -->
+    <!-- Adding Font Awesome for icons (this link help to add icon) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h2>Employee form Details</h2>
+    <form>
+      <!-- Name Input -->
+
+      <label for="name">Name</label>
+      <i class="fas fa-user"></i>
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <br /><br />
+
+      <!-- Email Input -->
+
+      <label for="email">Email</label>
+      <i class="fas fa-envelope"></i>
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <br /><br />
+
+      <!-- Password Input -->
+
+      <label for="password">Password</label>
+      <i class="fas fa-lock"></i>
+      <input type="password" id="password" placeholder="Enter your password" />
+
+      <br /><br />
+
+      <!-- Date Input -->
+
+      <label for="date">Date of Birth</label>
+      <i class="fas fa-calendar-alt"></i>
+      <input type="date" id="date" />
+
+      <br /><br />
+
+      <!-- Number Input -->
+
+      <label for="number">Number</label>
+      <i class="fas fa-hashtag"></i>
+      <input type="number" id="number" placeholder="Enter a number" />
+
+      <br /><br />
+
+      <!-- File Input -->
+
+      <label for="file">Upload File</label>
+      <i class="fas fa-file-upload"></i>
+      <input type="file" id="file" />
+
+      <br /><br />
+
+      <!-- Telephone Input -->
+
+      <label for="tel">Phone</label>
+      <i class="fas fa-phone"></i>
+      <input type="tel" id="tel" placeholder="Enter your phone number" />
+
+      <br /><br />
+
+      <!-- URL Input -->
+
+      <label for="url">Website</label>
+      <i class="fas fa-link"></i>
+      <input type="url" id="url" placeholder="Enter your website" />
+
+      <br /><br />
+
+      <!-- Checkbox -->
+
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox" class="inline"
+        >I agree to the terms and conditions</label
+      >
+
+      <br /><br />
+
+      <!-- Radio Button -->
+
+      <label>Options</label>
+      <input type="radio" id="radio1" name="radio-group" />
+      <label for="radio1" class="inline">Option 1</label>
+      <input type="radio" id="radio2" name="radio-group" />
+      <label for="radio2" class="inline">Option 2</label>
+
+      <br /><br />
+
+      <!-- Select Dropdown -->
+
+      <label for="select">Select your option</label>
+      <i class="fas fa-chevron-down"></i>
+      <select id="select">
+        <option value="" disabled selected>Select an option</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+
+      <br /><br />
+
+      <!-- Textarea -->
+
+      <label for="message">Message</label>
+      <i class="fas fa-comments"></i>
+      <textarea id="message" placeholder="Enter your message"></textarea>
+
+      <br /><br />
+
+      <!-- Submit Button -->
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
